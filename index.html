@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="game.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>CN Tower Challenge</title>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="navOff()">&times </a>
+        <a href="#pur"> Story</a>
+        <a href="#ab"> About</a>
+        <a href="#sto"> Rule</a>
+        <a href="#gm"> Game</a>
+    </div>
+
+    <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="navOn()">&#9776</span>
+    </div>
+
+
+    <header>
+        <div id="nav">
+            <ul>
+                <li><a href="#pur"><span> Story</span></a></li>
+                <li><a href="#ab"> <span>About</span></a></li>
+                <li><a href="#sto"><span> Rule</span></a> </li>
+                <li><a href="#gm"><span>Game</span></a></li>
+
+            </ul>
+        </div>
+
+    </header>
+
+    <div id="introduction">
+        <h2>CN Tower Challenge </h2> 
+    </div>
+    <div class="gamePhoto">
+        <img src="game.jpeg" alt=" game screenshot" />
+    </div>
+    
+    
+    <section id="pur">
+        <h4> Story</h4>
+    
+    <div class="Story">
+        <div id = "image">
+        <img src="bird.jpg" alt="flappy" id ="flappybird">
+        </div>
+        <div class="storyLine">
+            <p>
+                The Flappy Bird game is a simple yet addictive experience that has captivated millions of players around the world. Flappy Bird is a 2D side-scrolling mobile game developed by Vietnamese game developer Dong Nguyen and released in 2013. Flappy Bird is a mobile/web game in which a player controls a bird by tapping the screen/spacebar to make it fly through a series of obstacles, avoiding collisions to achieve the highest score possible. The initiative aligns perfectly with our course, as it integrates various aspects of web development, game design, and user experience, while providing a practical application of the skills acquired.</p>
+        </div>
+      
+    </div>
+
+    </section>
+    <section id="ab">
+        <h3> About our version</h3>
+   
+    <div> <p2>In the heart of Toronto, a brave bird named Skyler leads a flock on a daring adventure, discovering a hidden world above the clouds surrounding the CN Tower. Legend speaks of a mystical realm with untold treasures, reachable only by navigating challenging skies. As players guide Skyler through floating platforms and airborne obstacles inspired by the iconic tower's architecture, they collect shimmering feathers unlocking special abilities. The journey culminates in breaching the mystical realm, revealing a breathtaking world above the clouds, where the birds celebrate their triumphant ascent. CN Tower Soar combines thrilling gameplay with stunning visuals, offering players a chance to uncover the secrets of the avian legacy guarded by the towering icon.
+    </p2></div>
+
+  
+
+    </section>
+
+
+    
+
+
+    <section id="sto">
+        <h6> Rule </h6>
+    </section>
+    <div id ="rule"> <p>  Welcome to our immersive website designed for an unparalleled gaming experience! Dive into the world of CN Tower Challenge with our clear and concise instructions, providing step-by-step guidance on how to play the game. Experience the thrill effortlessly by enjoying the classic Flappy Bird game directly in your web browser with just one click. We prioritize convenience, ensuring a hassle-free and interactive platform for players. Additionally, compete with fellow gamers on our scoring board, where your scores are showcased, adding a competitive edge to your CN Tower Challenge journey. Join us on this exhilarating journey, where the excitement never stops, and the community is at the heart of every game.
+  </p>
+  <p>
+    In the exhilarating CN Tower Challenge, players embark on a thrilling adventure using the simple yet engaging rule of controlling their avian companion with the press of the spacebar. Navigate through the virtual skies by strategically tapping the spacebar to guide the bird through a challenging course inspired by the iconic CN Tower. Accumulate points with each successful passage through the obstacles, but be cautious, as collisions bring your flight to an end. The objective is to achieve the highest score by skillfully navigating the tower-inspired hurdles using precise timing. With accessible and straightforward rules, players can immerse themselves in the excitement of the CN Tower Challenge, competing for top honors on the leaderboard. So, spread your wings, press the spacebar, and conquer the skies in this thrilling avian adventure!
+  </p>
+  <div>
+    <img src="Rule.png" alt="rule" id = "rule_img">
+  </div>
+</div>
+
+
+
+ <div class = "bg">  
+<section id="gm">
+    <h3 id = "game"> Game </h3>
+</section>
+<div id = "fullgame">  
+<div id = "canvas">
+<div class="borderLeft"></div>
+<div class="borderTop"></div>
+<div class="game-container">
+    <div class ="sky">
+        <div class="bird"></div>
+        <div id="buttons">
+            <button id="startButton">Start Game</button>
+            <button id="tryAgainButton" style="display: none;">Try Again</button>
+        </div>
+    </div>  
+</div>
+<div class="borderBottom"></div>
+<div class="borderRight"></div>
+</div>
+
+<div id = "Score_list">
+    <h1 id = "score">Score <span id="scoredata"></span></h1>
+    <h1 id = "highestScore">Highest Score <span id = "bestscore"></span></h1>
+</div>
+</div>
+</div> 
+
+</body>
+</html>  
